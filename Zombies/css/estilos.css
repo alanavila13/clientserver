@@ -1,0 +1,59 @@
+  body {
+      position: relative; 
+  }
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .navbar {
+      margin-bottom: 0px;
+
+     
+  }
+  
+  
+  .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+  #section1 {padding-top:0px;height:850px !important; color: #fff; background-color: rgb(112, 112, 112) !important; position: sticky;}
+  #section2 {padding-top:0px;height:800px !important;color: #fff; background-color: rgb(120, 120, 120); position: sticky;}
+  #section3 {padding-top:0px;height:750px !important; color: #fff; background-color:  rgb(144, 144, 144); position: sticky;}
+  #section41 {padding-top:0px;height:150x !important; color: #000; background-color:  rgb(160, 160, 160); position: sticky;}
+  
+ .imglogo{
+     display: block;
+     margin: auto;
+     width: 40%;
+ }
+.textencabezado{
+    color: white !important;
+}
+
+  .textencabezado:hover{
+      color:red !important;
+  }
+
+  .textencabezado:active{
+      color: yellow !important;
+  }
+  
+.fondod{
+    background-color: black !important;
+}
+.encabezado{
+    width: 100%;
+}
+.piecontactanos{
+    float: none;
+    text-align: center;
+}
+.imginicio{
+    width: 100%;
+    height: 400px;
+}
+
+
+
+  

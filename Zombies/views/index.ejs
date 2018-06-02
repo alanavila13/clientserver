@@ -1,14 +1,24 @@
-<% include header %>
+<%include header %>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+            <a class="nav-link active" href="/">Zombies</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="/clases">Clases</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/armas">Armas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="/victimas">Vctimas</a>
+          </li>
+        </ul>
+      </nav>
+<h1>Clases de Zombies </h1>
 
-<h1> ¿Cuál es tu codigo postal? </h1>
-<form class="pure-form">
-    <fieldset>
-    <input type="number" name="zip" placeholder="12345"autofocus required>
-    <input type="submit" class="pure-button pure-button-primary" value="Go">
-    </fieldset>
-</form>
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="/main.js"></script>
 
-<%include footer%>
+<%include footer %>
